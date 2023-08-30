@@ -9,13 +9,14 @@
     font-size: 5em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    line-height:0.5rem;
+    line-height:5rem;
+    margin:0.5rem;
 }
 
-.x{
+.o{
     color:rgb(255,70,37);
 }
-.o{
+.x{
     color:rgb(44,135,255)
 }
 .box:hover{
