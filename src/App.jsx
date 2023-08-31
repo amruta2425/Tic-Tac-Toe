@@ -1,6 +1,7 @@
 import { useState ,useEffect} from 'react'
 import Board from './components/Board/Board'
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
+import ResetButton from './components/ResetButton/ResetButton';
 import './App.css'
 
 function App() {
@@ -62,8 +63,10 @@ function App() {
   
   return (
     <div className = "App">
+      <div className = "Heading">Tic <span className = "tac" >Tac</span> Toe</div>
       <ScoreBoard scores ={scores} xPlaying = {xPlaying} />
       <Board board={board} onClick = {gameOver ? resetBoard : handleBoxClick}/>
+      <ResetButton resetBoard = {resetBoard}/>
     </div>
   )
 }
