@@ -16,14 +16,14 @@
 1. Clone the repository:
 
 ```
-  - git clone https://github.com/amruta2425/tic-tac-toe-react.git
-  - cd tic-tac-toe-react
+   git clone https://github.com/amruta2425/tic-tac-toe-react.git
+   cd tic-tac-toe-react
 
 ```
 
 2. Install the dependencies:
 ```
-  - npm install
+   npm install
 
  ```
 
